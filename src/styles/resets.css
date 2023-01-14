@@ -1,3 +1,8 @@
+@font-face {
+  font-family: interFont;
+  src: url(/public/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,4 +11,5 @@
 }
 body {
   font-size: 16px;
+  font-family: interFont;
 }
