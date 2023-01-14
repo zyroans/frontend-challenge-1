@@ -1,0 +1,19 @@
+.newscolumn {
+  background-color: #00001a;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1.5em;
+}
+.newscolumn__header {
+  color: #f0ae4e;
+  font-size: 2.5rem;
+}
+.newscolumn__title {
+  color: #fff;
+}
+.newscolumn__content {
+  color: #c6c7dc;
+}
+.newscolumn__linebreak {
+  color: #c6c7dc;
+}

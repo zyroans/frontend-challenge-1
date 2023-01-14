@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 1.5rem;
+}
+
+.header__navbar {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 2em;
+}
+
+.header__navbar__element {
+  color: #00000099;
+}
+
+.header__navbar__element:hover {
+  color: red;
+  cursor: pointer;
+}
