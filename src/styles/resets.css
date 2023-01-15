@@ -2,14 +2,23 @@
   font-family: interFont;
   src: url(/public/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
+@font-face {
+  font-family: interFontBold;
+  src: url(/public/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: interFontExtraBold;
+  src: url(/public/fonts/static/Inter-ExtraBold.ttf);
+}
 
 * {
   padding: 0;
   margin: 0;
   background-color: none;
   border: none;
-}
-body {
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
   font-size: 16px;
   font-family: interFont;
 }

@@ -12,8 +12,8 @@
 
 .mainnew__title {
   grid-row: 2/4;
-  font-size: 5rem;
-  font-weight: bold;
+  font-size: 3.8rem;
+  font-family: interFontExtraBold;
 }
 .mainnew__content {
   line-height: 1.5em;

@@ -1,5 +1,5 @@
 import React from "react";
-import BlogsCard from "../components/BlogsCard";
+import Blogs from "../components/Blogs";
 import Header from "../components/Header";
 import MainNew from "../components/MainNew";
 import NewsColumn from "../components/NewsColumn";
@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <MainNew />
       <NewsColumn />
-      <BlogsCard />
+      <Blogs />
     </div>
   );
 }
