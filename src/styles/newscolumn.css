@@ -9,6 +9,8 @@
   font-size: 2.5rem;
 }
 .newscolumn__title {
+  font-family: interFontExtraBold;
+  font-size: 1.2rem;
   color: #fff;
 }
 .newscolumn__content {
